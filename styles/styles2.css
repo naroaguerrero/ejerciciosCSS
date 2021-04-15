@@ -1,0 +1,39 @@
+@media (max-width: 600px) {
+    .header {
+        width: 100%;
+        background-color: red;
+        font-size: 11px;
+    }    
+    
+    .main {
+        width: 100%;
+        background-color: red;
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .header {
+        width: 60%;
+        background-color: green;
+        font-size: 12px;
+    }    
+
+    .main {
+        width: 30%;
+        background-color: blue;
+        font-size: 12px;
+    }   
+}
+@media (min-width: 800px) {
+    .header {
+        width: 80%;
+        background-color: violet;
+        font-size: 14px;
+    }
+    .main {
+        width: 15%;
+        background-color: yellow;
+        font-size: 14px;
+    }
+}
